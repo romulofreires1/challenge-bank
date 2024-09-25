@@ -60,7 +60,7 @@ public class MidLevelDeveloper {
 
         System.out.println(menu);
         try {
-            int input = scanner.nextInt();
+            byte input = scanner.nextByte();
             return MenuOption.fromValue(input);
         } catch (InputMismatchException e) {
             System.out.println("Invalid input. Please enter a number.");

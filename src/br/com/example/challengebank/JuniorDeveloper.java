@@ -23,11 +23,11 @@ public class JuniorDeveloper {
                 
                 Please enter your choice:""";
 
-        byte input = 0;
+        int input = 0;
         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.println(menu);
-            input = scanner.nextByte();
+            input = scanner.nextInt();
 
             if (input == 1) {
                 System.out.printf("Your current balance is $%.2f%n", balance);
